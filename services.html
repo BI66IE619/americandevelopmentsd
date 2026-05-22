@@ -34,7 +34,6 @@
 </head>
 <body class="text-stone-600 antialiased overflow-x-hidden pt-24">
 
-    <!-- Global Navbar -->
     <nav class="fixed top-0 left-0 w-full z-50 modern-glass border-b border-beige-200/50">
         <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
             <a href="index.html" class="flex items-center gap-3">
@@ -44,7 +43,6 @@
                     <span class="text-[10px] text-stone-400 font-semibold tracking-widest mt-1">CONSTRUCTION CO.</span>
                 </div>
             </a>
-            <!-- Desktop Links -->
             <div class="hidden md:flex items-center gap-8 text-sm font-medium text-stone-600">
                 <a href="index.html" class="hover:text-stone-900 transition-colors">Home</a>
                 <a href="services.html" class="text-stone-900 font-semibold border-b-2 border-stone-900 pb-1">Services & Areas</a>
@@ -55,12 +53,10 @@
                     Call (619) 259-7991
                 </a>
             </div>
-            <!-- Mobile Menu Toggle Button -->
             <button id="menu-btn" class="md:hidden text-stone-900 focus:outline-none p-2">
                 <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path id="menu-icon" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
             </button>
         </div>
-        <!-- Mobile Dropdown Menu -->
         <div id="mobile-menu" class="hidden md:hidden absolute top-20 left-0 w-full bg-white border-b border-beige-200 px-6 py-6 flex flex-col gap-4 shadow-xl">
             <a href="index.html" class="text-stone-900 font-medium text-lg">Home</a>
             <a href="services.html" class="text-stone-900 font-bold text-lg">Services & Areas</a>
@@ -71,80 +67,92 @@
         </div>
     </nav>
 
-    <!-- Services Section -->
-    <section class="py-16 md:py-24">
+    <section class="py-16 md:py-20 bg-gradient-to-b from-beige-100/60 to-transparent">
         <div class="max-w-5xl mx-auto px-6">
-            <div class="text-center max-w-2xl mx-auto mb-16 space-y-4 reveal">
+            <div class="text-center max-w-2xl mx-auto space-y-4 reveal">
                 <span class="text-xs font-bold text-stone-400 tracking-widest uppercase">Our Architectural Capabilities</span>
                 <h1 class="text-4xl font-semibold text-stone-900 tracking-tight sm:text-5xl">Premium Building Services</h1>
                 <p class="text-stone-500 font-light text-sm">From major expansions to precise luxury transformations, we handle every stage of your build pipeline.</p>
             </div>
-
-            <div class="space-y-8">
-                <!-- ADU -->
-                <div class="bg-white border border-beige-200/60 p-8 rounded-2xl grid grid-cols-1 md:grid-cols-12 gap-8 items-center shadow-sm hover:shadow-md transition-all reveal">
-                    <div class="md:col-span-8 space-y-4">
-                        <div class="inline-block px-3 py-1 bg-beige-100 text-stone-600 text-xs font-medium rounded-lg uppercase tracking-wider">Property Expansion</div>
-                        <h2 class="text-2xl font-semibold text-stone-900">ADU (Accessory Dwelling Units)</h2>
-                        <p class="text-stone-500 font-light leading-relaxed text-sm">We design and build high-quality accessory dwelling units that enhance both the functionality and value of your property. Whether you’re looking to create a private space for extended family, generate rental income, or add a comfortable guest house, our team delivers fully customized ADU solutions. From planning and design to construction and finishing, we ensure every detail is handled with precision, efficiency, and compliance with local regulations.</p>
-                    </div>
-                    <div class="md:col-span-4 flex md:justify-end">
-                        <a href="contact.html" class="w-full md:w-auto bg-stone-900 hover:bg-stone-800 text-white font-medium text-center py-3.5 px-6 rounded-xl text-sm transition-all shadow-sm">Get A Quote</a>
-                    </div>
-                </div>
-
-                <!-- Home Additions -->
-                <div class="bg-white border border-beige-200/60 p-8 rounded-2xl grid grid-cols-1 md:grid-cols-12 gap-8 items-center shadow-sm hover:shadow-md transition-all reveal">
-                    <div class="md:col-span-8 space-y-4">
-                        <div class="inline-block px-3 py-1 bg-beige-100 text-stone-600 text-xs font-medium rounded-lg uppercase tracking-wider">Custom Extensions</div>
-                        <h2 class="text-2xl font-semibold text-stone-900">Home Additions</h2>
-                        <p class="text-stone-500 font-light leading-relaxed text-sm">Home additions are our specialty, and we take pride in creating seamless expansions that feel like a natural part of your home. Whether you need an extra bedroom, a larger living area, a second story, or a complete layout transformation, we work closely with you to bring your vision to life. Our team focuses on structural integrity, aesthetic consistency, and functionality, ensuring your new space blends perfectly with the existing design while meeting your growing needs.</p>
-                    </div>
-                    <div class="md:col-span-4 flex md:justify-end">
-                        <a href="contact.html" class="w-full md:w-auto bg-stone-900 hover:bg-stone-800 text-white font-medium text-center py-3.5 px-6 rounded-xl text-sm transition-all shadow-sm">Get A Quote</a>
-                    </div>
-                </div>
-
-                <!-- Bathroom Remodeling -->
-                <div class="bg-white border border-beige-200/60 p-8 rounded-2xl grid grid-cols-1 md:grid-cols-12 gap-8 items-center shadow-sm hover:shadow-md transition-all reveal">
-                    <div class="md:col-span-8 space-y-4">
-                        <div class="inline-block px-3 py-1 bg-beige-100 text-stone-600 text-xs font-medium rounded-lg uppercase tracking-wider">Interior Refinement</div>
-                        <h2 class="text-2xl font-semibold text-stone-900">Bathroom Remodeling</h2>
-                        <p class="text-stone-500 font-light leading-relaxed text-sm">Transform your bathroom into a modern, comfortable, and highly functional space. We handle everything from simple upgrades to complete renovations, including layout changes, new fixtures, custom vanities, tile work, and lighting. Our goal is to create a bathroom that reflects your style while improving efficiency and comfort. With attention to detail and high-quality materials, we deliver results that elevate both your daily experience and your home’s value.</p>
-                    </div>
-                    <div class="md:col-span-4 flex md:justify-end">
-                        <a href="contact.html" class="w-full md:w-auto bg-stone-900 hover:bg-stone-800 text-white font-medium text-center py-3.5 px-6 rounded-xl text-sm transition-all shadow-sm">Get A Quote</a>
-                    </div>
-                </div>
-
-                <!-- Kitchen Remodeling -->
-                <div class="bg-white border border-beige-200/60 p-8 rounded-2xl grid grid-cols-1 md:grid-cols-12 gap-8 items-center shadow-sm hover:shadow-md transition-all reveal">
-                    <div class="md:col-span-8 space-y-4">
-                        <div class="inline-block px-3 py-1 bg-beige-100 text-stone-600 text-xs font-medium rounded-lg uppercase tracking-wider">The Heart of the House</div>
-                        <h2 class="text-2xl font-semibold text-stone-900">Kitchen Remodeling</h2>
-                        <p class="text-stone-500 font-light leading-relaxed text-sm">The kitchen is the heart of the home, and we specialize in turning it into a space that is both beautiful and practical. Our kitchen remodeling services include custom cabinetry, countertops, lighting, flooring, and optimized layouts to improve workflow and storage. Whether you want a modern, open-concept design or a more traditional style, we work with you to create a kitchen that matches your lifestyle and enhances everyday living.</p>
-                    </div>
-                    <div class="md:col-span-4 flex md:justify-end">
-                        <a href="contact.html" class="w-full md:w-auto bg-stone-900 hover:bg-stone-800 text-white font-medium text-center py-3.5 px-6 rounded-xl text-sm transition-all shadow-sm">Get A Quote</a>
-                    </div>
-                </div>
-
-                <!-- New Custom Home Construction -->
-                <div class="bg-white border border-beige-200/60 p-8 rounded-2xl grid grid-cols-1 md:grid-cols-12 gap-8 items-center shadow-sm hover:shadow-md transition-all reveal">
-                    <div class="md:col-span-8 space-y-4">
-                        <div class="inline-block px-3 py-1 bg-beige-100 text-stone-600 text-xs font-medium rounded-lg uppercase tracking-wider">Ground-Up Builds</div>
-                        <h2 class="text-2xl font-semibold text-stone-900">New Custom Home Construction</h2>
-                        <p class="text-stone-500 font-light leading-relaxed text-sm">Build your dream home with a team dedicated to quality, transparency, and craftsmanship. From the initial concept and design phase to the final walkthrough, we guide you through every step of the construction process. We focus on creating homes that reflect your unique vision, preferences, and lifestyle while maintaining the highest standards of construction. With careful planning, clear communication, and expert execution, we turn your ideas into a home you’ll love for years to come.</p>
-                    </div>
-                    <div class="md:col-span-4 flex md:justify-end">
-                        <a href="contact.html" class="w-full md:w-auto bg-stone-900 hover:bg-stone-800 text-white font-medium text-center py-3.5 px-6 rounded-xl text-sm transition-all shadow-sm">Get A Quote</a>
-                    </div>
-                </div>
-            </div>
         </div>
     </section>
 
-    <!-- Areas Served Section -->
+    <section class="pb-24">
+        <div class="max-w-6xl mx-auto px-6 space-y-16">
+            
+            <div class="bg-white border border-beige-200/70 rounded-3xl overflow-hidden grid grid-cols-1 md:grid-cols-12 gap-0 shadow-sm hover:shadow-md transition-all reveal">
+                <div class="md:col-span-5 min-h-[250px] md:min-h-full bg-stone-50 relative">
+                    <img src="assets/services/image2.webp" alt="On-site work showing carrying ladder" class="w-full h-full object-cover">
+                </div>
+                <div class="md:col-span-7 p-8 md:p-12 space-y-5 flex flex-col justify-center">
+                    <div class="align-self-start"><span class="px-3 py-1 bg-beige-100 text-stone-600 text-xs font-medium rounded-lg uppercase tracking-wider">Property Expansion</span></div>
+                    <h2 class="text-2xl md:text-3xl font-semibold text-stone-900 tracking-tight">ADU (Accessory Dwelling Units)</h2>
+                    <p class="text-stone-500 font-light leading-relaxed text-sm">We design and build high-quality accessory dwelling units that enhance both the functionality and value of your property. Whether you’re looking to create a private space for extended family, generate rental income, or add a comfortable guest house, our team delivers fully customized ADU solutions. From planning and design to construction and finishing, we ensure every detail is handled with precision, efficiency, and compliance with local regulations.</p>
+                    <div class="pt-2">
+                        <a href="contact.html" class="inline-flex items-center gap-2 text-stone-900 font-semibold text-sm group hover:text-stone-700 transition-colors">
+                            Inquire About ADU Builds <span class="group-hover:translate-x-1 transition-transform">➔</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-white border border-beige-200/70 rounded-3xl p-8 md:p-10 space-y-5 flex flex-col justify-between shadow-sm hover:shadow-md transition-all reveal">
+                    <div class="space-y-4">
+                        <span class="inline-block px-3 py-1 bg-beige-100 text-stone-600 text-xs font-medium rounded-lg uppercase tracking-wider">Custom Extensions</span>
+                        <h2 class="text-2xl font-semibold text-stone-900 tracking-tight">Home Additions</h2>
+                        <p class="text-stone-500 font-light leading-relaxed text-sm">Home additions are our specialty, and we take pride in creating seamless expansions that feel like a natural part of your home. Whether you need an extra bedroom, a larger living area, a second story, or a complete layout transformation, we work closely with you to bring your vision to life. Our team focuses on structural integrity, aesthetic consistency, and functionality, ensuring your new space blends perfectly with the existing design while meeting your growing needs.</p>
+                    </div>
+                    <div class="pt-4 border-t border-beige-100">
+                        <a href="contact.html" class="inline-block w-full text-center bg-stone-900 hover:bg-stone-800 text-white font-medium py-3 px-6 rounded-xl text-sm transition-all shadow-sm">Start Your Project Blueprint</a>
+                    </div>
+                </div>
+
+                <div class="bg-white border border-beige-200/70 rounded-3xl p-8 md:p-10 space-y-5 flex flex-col justify-between shadow-sm hover:shadow-md transition-all reveal" style="transition-delay: 50ms;">
+                    <div class="space-y-4">
+                        <span class="inline-block px-3 py-1 bg-beige-100 text-stone-600 text-xs font-medium rounded-lg uppercase tracking-wider">Interior Refinement</span>
+                        <h2 class="text-2xl font-semibold text-stone-900 tracking-tight">Bathroom Remodeling</h2>
+                        <p class="text-stone-500 font-light leading-relaxed text-sm">Transform your bathroom into a modern, comfortable, and highly functional space. We handle everything from simple upgrades to complete renovations, including layout changes, new fixtures, custom vanities, tile work, and lighting. Our goal is to create a bathroom that reflects your style while improving efficiency and comfort. With attention to detail and high-quality materials, we deliver results that elevate both your daily experience and your home’s value.</p>
+                    </div>
+                    <div class="pt-4 border-t border-beige-100">
+                        <a href="contact.html" class="inline-block w-full text-center bg-white hover:bg-beige-50 text-stone-800 border border-beige-200 font-medium py-3 px-6 rounded-xl text-sm transition-all">Request Bathroom Consultation</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-white border border-beige-200/70 rounded-3xl overflow-hidden grid grid-cols-1 md:grid-cols-12 gap-0 shadow-sm hover:shadow-md transition-all reveal">
+                <div class="md:col-span-7 p-8 md:p-12 space-y-5 flex flex-col justify-center order-2 md:order-1">
+                    <div><span class="inline-block px-3 py-1 bg-beige-100 text-stone-600 text-xs font-medium rounded-lg uppercase tracking-wider">The Heart of the House</span></div>
+                    <h2 class="text-2xl md:text-3xl font-semibold text-stone-900 tracking-tight">Kitchen Remodeling</h2>
+                    <p class="text-stone-500 font-light leading-relaxed text-sm">The kitchen is the heart of the home, and we specialize in turning it into a space that is both beautiful and practical. Our kitchen remodeling services include custom cabinetry, countertops, lighting, flooring, and optimized layouts to improve workflow and storage. Whether you want a modern, open-concept design or a more traditional style, we work with you to create a kitchen that matches your lifestyle and enhances everyday living.</p>
+                    <div class="pt-2">
+                        <a href="contact.html" class="inline-flex items-center gap-2 text-stone-900 font-semibold text-sm group hover:text-stone-700 transition-colors">
+                            Plan Your Layout Upgrade <span class="group-hover:translate-x-1 transition-transform">➔</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="md:col-span-5 min-h-[250px] md:min-h-full bg-stone-50 relative order-1 md:order-2">
+                    <img src="assets/services/image1.webp" alt="Beautifully remodeled finished living room space" class="w-full h-full object-cover">
+                </div>
+            </div>
+
+            <div class="bg-white border border-beige-200/70 rounded-3xl overflow-hidden grid grid-cols-1 md:grid-cols-12 gap-0 shadow-sm hover:shadow-md transition-all reveal">
+                <div class="md:col-span-5 min-h-[250px] md:min-h-full bg-stone-50 relative">
+                    <img src="assets/services/image3.webp" alt="Interior look of portable equipment tools inside the truck" class="w-full h-full object-cover">
+                </div>
+                <div class="md:col-span-7 p-8 md:p-12 space-y-5 flex flex-col justify-center">
+                    <div><span class="inline-block px-3 py-1 bg-beige-100 text-stone-600 text-xs font-medium rounded-lg uppercase tracking-wider">Ground-Up Builds</span></div>
+                    <h2 class="text-2xl md:text-3xl font-semibold text-stone-900 tracking-tight">New Custom Home Construction</h2>
+                    <p class="text-stone-500 font-light leading-relaxed text-sm">Build your dream home with a team dedicated to quality, transparency, and craftsmanship. From the initial concept and design phase to the final walkthrough, we guide you through every step of the construction process. We focus on creating homes that reflect your unique vision, preferences, and lifestyle while maintaining the highest standards of construction. With careful planning, clear communication, and expert execution, we turn your ideas into a home you’ll love for years to come.</p>
+                    <div class="pt-2">
+                        <a href="contact.html" class="inline-block text-center bg-stone-900 hover:bg-stone-800 text-white font-medium py-3.5 px-7 rounded-xl text-sm transition-all shadow-sm">Schedule General Assessment</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
     <section class="py-24 bg-beige-100/50 border-t border-beige-200/60">
         <div class="max-w-4xl mx-auto px-6">
             <div class="text-center max-w-2xl mx-auto mb-16 space-y-3 reveal">
@@ -167,7 +175,6 @@
         </div>
     </section>
 
-    <!-- Global Footer -->
     <footer class="py-12 border-t border-beige-200 text-center text-xs text-stone-400 bg-white">
         <div class="max-w-7xl mx-auto px-6">
             <p>&copy; 2026 American Development Construction Company San Diego INC. All rights reserved.</p>
